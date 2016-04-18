@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Etiqueta Command: se situa dentro de un menu, define botones que accionan comandos en nuestra pagina web-->
+	<title>Etiqueta Command</title>
+</head>
+<body>
+<menu type = "toolbar">
+
+<br>
+<br>
+<br>
+<br>
+<Command type = "radio" radiogroup = "alignment" checked = "checked" label = "Sena" onclick = "setAling (' Hola Adsi')"><button> Mostrar Mensaje </button></Command><br>
+<br>
+<br>
+<br>
+<Command type = "radio" radiogroup = "alignment" checked = "checked" label = "Correo" onclick = "setAling ('1020185')"><label = "center"> Mostrar Este Mensaje </label> </Command>
+
+</menu>
+
+<Script type = "text/javascript">
+function setAling(texto){
+	alert ("Parametro Enviado" + texto);
+}
+</Script>
+</body>
+</html>
